@@ -1,0 +1,14 @@
+#slide1, #slide2, #slide3, #slide4, #slide5, #slide6, #slide7, #slide8, #slide9, #slide10 {
+	background-repeat: repeat-x;
+	background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.pixel {
+	display: none;
+}
+
+#slide2 .hsContent, #slide3 .hsContent, #slide4 .hsContent, #slide5 .hsContent, #slide6 .hsContent, #slide7 .hsContent, #slide8 .hsContent, #slide9 .hsContent, #slide10 .hsContent  {
+  display: block;
+}

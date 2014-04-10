@@ -1,0 +1,1227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x:hidden;
+}
+
+html, body {
+    height:100%;
+    min-height:100%;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+h1, h2, p {
+    font-family: 'lato';
+    font-weight: 300;
+    margin: 0px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 2%;
+}
+
+p {
+    font-size: 24px;
+}
+
+a {
+    color: white;
+}
+
+img {
+    cursor: pointer;
+}
+
+.hsContent > form > div > label {
+    margin-right: 2%;
+}
+
+form, .hsContent img {
+    margin-left: 1%;
+    margin-top: 1%;
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 2%;
+}
+
+span, label {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    max-width: 85%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.fullscreen-cont {
+    display:block;
+    position:relative;
+    min-width:100%;
+    min-height:100%;
+}
+
+.hsContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.answer-validate {
+    display: none;
+    margin-top: 2%;
+}
+
+.answer-validate p {
+    font-size: 20px;
+}
+
+.next {
+    margin-top: 35px;
+}
+/*<--------------- End Main STyle --------------->*/
+
+
+#slide1-content {
+    width: 60%;
+    max-width: 960px;
+    height:50%;
+    margin: auto;
+    margin-top: 20%;
+    text-align:center;
+}
+
+#slide1-content p {
+    margin-bottom: 55px;
+}
+
+#slide1-content > h1 {
+    margin: 60px 0px 16px 0px;
+}
+
+#down-1 {
+    background-color: #1D4BC2;
+    width: 261px;
+    height: 71px;
+    display: table;
+    margin: auto;
+    cursor: pointer;
+}
+
+#down-1:hover {
+    background-color: #456fda;
+}
+
+#down-1 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 1 --------------->*/
+#slide2-content {
+    width: 80%;
+    max-width: 960px;
+    margin: 15% auto;
+    height:48%;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(62, 62, 60, 0.9);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 2% 0 0 3%;
+}
+
+#down-2 {
+    background-color: #70706E;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-2:hover {
+    background-color: #919191;
+}
+
+#down-2 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 2 --------------->*/
+#slide3-content {
+    width: 80%;
+    max-width: 960px;
+    left:4%;
+    height:32%;
+    top:57%;
+    position:absolute;
+    background-color: #273356;
+    padding: 2% 0 0 3%;
+}
+
+#down-3 {
+    background-color: #575E73;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-3:hover {
+    background-color: #7a84a2;
+}
+
+#down-3 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 3 --------------->*/
+#slide4-content {
+    width: 74%;
+    max-width: 960px;
+    left:4%;
+    height:32%;
+    top:6%;
+    position:absolute;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 2% 0 0 3%;
+}
+
+#slide4-content label, #slide4-content h2 {
+    color: #dc673b;
+}
+
+#down-4 {
+    background-color: #DC673B;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-4:hover {
+    background-color: #f69a78;
+}
+
+#down-4 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#answer-validate-3 {
+    color: #DC673B;
+}
+/*<--------------- End Slide 4 --------------->*/
+#slide5-content {
+    width: 74%;
+    max-width: 960px;
+    left:4%;
+    height:32%;
+    top:13%;
+    position:absolute;
+    padding: 2% 0 0 3%;
+}
+
+#down-5 {
+    background-color: #70706E;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-5:hover {
+    background-color: #757575;
+}
+
+#down-5 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 5 --------------->*/
+#slide6-content {
+    width: 67%;
+    max-width: 960px;
+    left:6%;
+    height:31%;
+    top:4%;
+    position:absolute;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(62, 62, 60, 0.9);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 2% 0 0 3%;
+}
+
+#down-6 {
+    background-color: #70706E;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-6:hover {
+    background-color: #888888;
+}
+
+#down-6 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 6 --------------->*/
+#slide7-content {
+    width: 64%;
+    max-width: 960px;
+    left:6%;
+    height:40%;
+    top:8%;
+    position:absolute;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(83, 149, 205, 0.8);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 2% 0 0 3%;
+}
+
+#down-7 {
+    background-color: #3B709A;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-7:hover {
+    background-color: #4a89ba;
+}
+
+#down-7 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 7 --------------->*/
+#slide8-content {
+    width: 64%;
+    max-width: 960px;
+    left:6%;
+    height:40%;
+    top:8%;
+    position:absolute;
+}
+
+#down-8 {
+    background-color: #70706E;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-8:hover {
+    background-color: #787878;
+}
+
+#down-8 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 8 --------------->*/
+#slide9-content {
+    width: 50%;
+    max-width: 960px;
+    left:6%;
+    height:40%;
+    top:52%;
+    position:absolute;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(79, 95, 120);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(79, 95, 120, 0.8);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 2% 0 0 3%;
+}
+
+#down-9 {
+    background-color: #8899B0;
+    width: 120px;
+    height: 59px;
+    display: table;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+
+#down-9:hover {
+    background-color: #8b9fb9;
+}
+
+#down-9 p {
+    vertical-align: middle;
+    display: table-cell;
+}
+/*<--------------- End Slide 9 --------------->*/
+#form-container {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+#form-items {
+    margin: auto;
+    width: 32%;
+}
+
+#slide10 h1 {
+    margin-top: 6%;
+}
+
+#form-items {
+    margin-top: 10%;
+}
+
+#entry_705729921, #entry_1210850050{
+    width: 145px;
+    height: 25px;
+    margin-bottom: 18px;
+}
+
+#entry_1173155173 {
+    height: 25px;
+    width: 265px;
+    margin-bottom: 18px;
+}
+
+.button {
+    background-color: #CA471C;
+    width: 269px;
+    height: 60px;
+    border: 0px;
+    cursor: pointer;
+    outline: 0;
+    color: white;
+    font-size: 24px;
+    font-family: 'lato';
+    font-weight: 300;
+    font-style: italic;
+}
+
+.button:hover {
+    background-color: #e66b42;
+}
+
+#ss-submit {
+    margin-top: 4%; 
+}
+
+#skip {
+    position: absolute;
+    bottom: 40px;
+    margin-left: 4%;
+    width: 93%;
+}
+
+#skip img {
+    margin-right: 1%;
+}
+
+.text-error-message-1, .text-error-message-2, .text-error-message-3, .text-error-message-4  {
+    display: none;
+    color: red;
+}
+
+#fd-logo {
+    float: right;
+}
+
+#skip-icon{
+    margin-top: 24px;
+}
+
+/*<--------------- End Slide 10 --------------->*/
+#slide11-content {
+    width: 73%;
+    max-width: 918px;
+    margin: auto;
+    margin-top: 6%;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(55, 55, 55);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(55, 55, 55, 0.8);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 3% 6% 3% 6%;
+}
+
+.final-answer h2 {
+    text-align: center;
+}
+
+.answer-image1, .answer-image2, .answer-image3, .answer-image4 {
+    display: inline-block;
+}
+
+.answer-image {
+    margin-top: 3%;
+}
+
+#virgin, #change, #kulula {
+    margin-right: 8%;
+}
+
+#virgin {
+    margin-left: 8%;
+}
+/*<--------------- End Champion --------------->*/
+#emirates {
+    margin-left: 6%;
+}
+
+#emirates, #pepsi {
+    margin-right: 11%;
+}
+/*<--------------- End Generation --------------->*/
+#aljazeera {
+    margin-left: 10%;
+}
+
+#aljazeera, #huitdenim {
+    margin-right: 22%;
+}
+/*<--------------- End Missionary --------------->*/
+#paddypower {
+    margin-left: 8%;
+}
+
+#paddypower, #redbull {
+    margin-right: 13%;
+}
+/*<--------------- End Maverrick --------------->*/
+#zara {
+    margin-left: 7%;
+}
+
+#zara, #ted {
+    margin-right: 13%;
+}
+/*<--------------- End Democrotizer --------------->*/
+#social-links {
+    width: 73%;
+    max-width: 918px;
+    margin: auto;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(55, 55, 55);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(55, 55, 55, 0.8);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding: 3% 6% 3% 6%;
+}
+
+#social-links h2, #facebook, #twitter, #google, #linkedin {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#facebook, #twitter, #google, #linkedin {
+    vertical-align: top;
+}
+
+#social-icons {
+    display: inline-block;
+    width: 315px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+/*<--------------- End of main --------------->*/
+
+
+
+#slide1 {
+    background: url(../img/landing.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide2 {
+    background: url(../img/slide1-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide3 {
+    background: url(../img/slide2-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide4 {
+    background: url(../img/slide3-background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide5 {
+    background: url(../img/slide4-background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide6 {
+    background: url(../img/slide5-background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide7 {
+    background: url(../img/slide6-background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide8 {
+    background-color: black;
+    overflow: hidden;
+}
+
+#slide9 {
+    background: url(../img/slide8-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide10 {
+    background: url(../img/slide9-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide11 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*<--------------- End of Slides background images --------------->*/
+
+
+
+.pixel {
+    position: absolute;
+}
+
+/*.pixel:nth-child(9) img, .pixel:nth-child(10) img { 
+    width: 100%;
+    height: 100%;
+}*/
+
+/*<--------------- End of Pixel main styles --------------->*/
+
+
+.pixel:nth-child(2)  { left: 30px; top: 400px;  }
+.pixel:nth-child(3)  { left: 60px; top: 400px;  }
+.pixel:nth-child(4)  { left: 90px; top: 400px;  }
+.pixel:nth-child(5)  { left: 120px; top: 400px; }
+.pixel:nth-child(6)  { left: 0%; top: 1%; display: inline-block !important; }
+.pixel:nth-child(7)  { left: 48%; top: 26%; display: inline-block !important; }
+.pixel:nth-child(8)  { left: 58%; top: 51%; display: inline-block !important;}
+.pixel:nth-child(9)  { left: 65%; top: 60%; display: inline-block !important; }
+
+.pixel:nth-child(7) img  { width:100%; }
+.pixel:nth-child(8) img  { width:100%; }
+.pixel:nth-child(9) img  { width:100%; }
+
+/*<--------------- End of Pixel positions --------------->*/
+
+#slide2 .hsContent, #slide3 .hsContent, #slide4 .hsContent, #slide5 .hsContent, #slide6 .hsContent, #slide7 .hsContent, #slide8 .hsContent, #slide9 .hsContent, #slide10 .hsContent  {
+  display: none;
+}
+
+/*<--------------- End of Animation --------------->*/
+
+video {
+ left:0;
+ position:absolute;
+ top:0;
+}
+
+.ss-q-item-label {
+    display: block !important;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 10px;
+    }
+
+    input[type="radio"] {
+        width: 5%;
+    }
+
+    .answer-validate p{
+        font-size: 10px;
+    }
+
+    /*END MAIN MEDIA*/
+
+    #slide1-content {
+        width: 100%;
+        height: 50%;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        padding: 0 5% 0 0;
+    }
+
+    #slide1-content p {
+        margin-top: 75px;
+        font-size: 18px;
+    }
+
+    /*END SLIDE 1 MEDIA*/
+
+    #slide2-content {
+        height: 82% !important;
+    }
+
+    #down-2 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-2 p {
+        font-size: 15px;
+    }
+
+    /*END SLIDE 2 MEDIA*/
+
+    #slide3-content {
+        top: 30% !important;
+        height: 60% !important;
+    }
+
+    #down-3 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-3 p {
+        font-size: 15px;
+    }
+
+/*    #slide3 .next {
+        margin-top: 10px;
+    }*/
+
+    /*END SLIDE 3 MEDIA*/
+
+    #down-4 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-4 p {
+        font-size: 15px;
+    }
+
+/*    #slide4 .next {
+        margin-top: 10px;
+    }*/
+
+    #slide4-content {
+        height: 42% !important;
+    }
+
+    /*END SLIDE 4 MEDIA*/
+
+    #down-5 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-5 p {
+        font-size: 15px;
+    }
+
+    /*END SLIDE 5 MEDIA*/
+
+    #slide6-content {
+        height: 50% !important;
+    }
+
+    #down-6 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-6 p {
+        font-size: 15px;
+    }
+/*
+    #slide6 .next {*/
+/*        margin-top: 10px;
+    }*/
+
+    /*END SLIDE 6 MEDIA*/
+
+    #slide7-content {
+        height: 70% !important;
+    }
+
+    #down-7 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-7 p {
+        font-size: 15px;
+    }
+
+/*    #slide7 .next {
+        margin-top: 8px;
+    }*/
+
+    /*END SLIDE 7 MEDIA*/
+
+    #down-8 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-8 p {
+        font-size: 15px;
+    }
+
+/*    #down-8 .next {
+        margin-top: 5px;
+    }*/
+
+    .pixel {
+        display: none !important;
+    }
+
+    /*END SLIDE 8 MEDIA*/
+
+    #slide9-content {
+        top: 10% !important;
+        width: 80%;
+        height: 77% !important;
+    }
+
+    #down-9 {
+        width: 70px;
+        height: 38px;
+    }
+
+    #down-9 p {
+        font-size: 15px;
+    }
+
+/*    #slide-9 .next {
+        margin-top: -30px;
+    }*/
+
+    /*END SLIDE 8 MEDIA*/
+
+    #slide10 h1 {
+        font-size: 20px;
+        margin-left: 2% !important;
+    }
+
+    #form-container {
+        width: 100%;
+    }
+
+    #form-items {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .button { 
+        width: 150px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    #entry_705729921, #entry_1210850050 {
+        width: 120px;
+        height: 20px;
+    }
+
+    #entry_1173155173 {
+        width: 200px;
+        height: 20px;
+    }
+
+    .ss-q-title{ 
+        font-size: 12px;
+    }
+
+    #skip img {
+        width: 5%;
+    }
+
+    #skip a {
+        font-size: 10px;
+    }
+
+    .text-error-message-1, .text-error-message-2, .text-error-message-3 {
+        font-size: 13px;
+    }
+
+    /*END SLIDE 9 MEDIA*/
+
+
+    #slide1 {
+        background: url(../img/iphone.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide2 {
+        background: url(../img/1.Advertising-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide3 {
+        background: url(../img/2.Marketing-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide4 {
+        background: url(../img/3.SocialMedia-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide5 {
+        background: url(../img/4.einstein-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide6 {
+        background: url(../img/5.Laptop-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide7 {
+        background: url(../img/6.Hotel-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide8 {
+        background-color: black;
+        overflow: hidden;
+    }
+
+    #slide9 {
+        background: url(../img/8.Competitors-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide10 {
+        background: url(../img/9.Details-v1a.jpg); 
+        background-size: cover;
+        height: 480px;
+    }
+
+    #slide11 {
+        height: 500px;
+    }
+
+    #slide11 p {
+        font-size: 15px;
+    }
+
+    .answer-image img {
+        width: 20%;
+    }
+
+    #social-links {
+        display: none;
+    }
+
+    #social-links h2 {
+        font-size: 10px;
+    }
+
+    .answer-image {
+        margin-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    iframe {
+        transform: scale(0.5);
+        -ms-transform: scale(0.5); 
+        -webkit-transform: scale(0.5); 
+        -o-transform: scale(0.5); 
+        -moz-transform: scale(0.5); 
+        transform-origin: top left;
+        -ms-transform-origin: top left;
+        -webkit-transform-origin: top left;
+        -moz-transform-origin: top left;
+        -webkit-transform-origin: top left;
+    }
+
+    #linkedin {
+        transform: scale(0.5);
+        -ms-transform: scale(0.5); 
+        -webkit-transform: scale(0.5); 
+        -o-transform: scale(0.5); 
+        -moz-transform: scale(0.5); 
+     
+    }
+
+    #facebook, #twitter, #google, #linkedin {
+        display: block;
+        margin-right: 1px;
+    }
+
+    #linux {
+        display: none;
+    }
+
+    #aljazeera, #huitdenim {
+        margin-right: 15%;
+    }
+
+}
+
+/* Smartphones (portrait) IPHONE5----------- */
+@media screen and (device-aspect-ratio: 40/71) {
+
+    #slide2-content {
+        height: 73% !important;
+    }
+    
+    #slide3-content {
+        top: 30% !important;
+        height: 55% !important;
+    }
+
+    #slide4-content {
+        height: 38% !important;
+    }
+
+    #slide6-content {
+        height: 45% !important;
+    }
+
+    #slide7-content {
+        height: 68% !important;
+    }
+
+    #slide9-content {
+        top: 20% !important;
+        height: 69% !important;
+        width: 80% !important;
+    }
+
+
+    #slide1 {
+        background: url(../img/iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide2 {
+        background: url(../img/2iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide3 {
+        background: url(../img/3iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide4 {
+        background: url(../img/4iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide5 {
+        background: url(../img/5iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide6 {
+        background: url(../img/6iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide7 {
+        background: url(../img/7iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide8 {
+        background-color: black;
+    }
+
+    #slide9 {
+        background: url(../img/9iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide10 {
+        background: url(../img/10iphone5.jpg); 
+        background-size: cover;
+        height: 530px;
+    }
+
+    #slide11 {
+        height: 530px;
+    }
+
+}
+
+
+
+    @media only screen and (max-width:1366px) and (max-height:768px) {
+
+        #slide2-content {
+            height: 50%;
+        }
+
+        #slide3-content, #slide4-content, #slide5-content, #slide6-content {
+            height: 35%;
+        }
+
+        #slide7-content {
+            height: 45%;
+        }
+
+        #slide9-content {
+            height: 48%;
+            top: 40%;
+        }
+
+    }
+
+     @media only screen and (max-width:1280px) and (max-height:800px) {
+
+        #slide2-content {
+            height: 53%;
+        }
+    }
+
+     @media only screen and (max-width:1024px) and (max-height:768px) {
+
+        #slide2-content {
+            width: 85%;
+        }
+
+         #slide7-content {
+            width: 70%;
+        }
+
+        #virgin, #change, #kulula {
+        margin-right: 4%;
+        }
+
+        #virgin {
+            margin-left: 4%;
+        }
+
+        #social-links h2 {
+            font-size: 32px;
+        }
+    }
+
+
+
+

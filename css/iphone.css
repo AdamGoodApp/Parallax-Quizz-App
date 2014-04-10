@@ -1,0 +1,22 @@
+h1 {
+	color: red;
+	font-size: 30px;
+}
+
+
+#slide1 {
+    background: url(../img/landing-background.png) no-repeat center center fixed; 
+   	width: 100%;
+}
+
+#slide1-content {
+width: 100% !important;
+height: 50% !important;
+left: 0px !important;
+top: 0px !important;
+text-align: center;
+}
+
+h1 {
+	color: red;
+}

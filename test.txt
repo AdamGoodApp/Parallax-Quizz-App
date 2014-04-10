@@ -1,0 +1,35 @@
+<section class="fullscreen-cont" id="slide3">
+    <div class="hsContainer">
+        <video id="hv" loop="loop" preload="auto"  autoplay muted>
+            <source src="Video/world.mp4" type='video/mp4' />
+            <!-- <source src="/media/six60-home.webm" type='video/webm' /> -->
+        </video>
+        <div class="hsContent" id="slide3-content">
+            <h2>2. You handle building your campaigns by:</h2>
+                    <form>
+                        <input type="radio" name="question_2" id="answer_f" value="f"><span>Win your customers peace and mind by offering the best customer support<br></span>
+                        <input type="radio" name="question_2" id="answer_g" value="g"><span>Focus on challenging wrong things</span>
+                    </form>
+            <a><h1 id="down-3">DOWN</h1></a>
+        </div>
+    </div>
+</section>
+
+<!--  <section class="fullscreen-cont" id="slide1">
+            <div class="pixel" data-stellar-ratio="1.1"></div>
+            <div class="pixel" data-stellar-ratio="1.2"></div>
+            <div class="pixel" data-stellar-ratio="1.3"></div>
+            <div class="pixel" data-stellar-ratio="1.4"></div>
+            <div class="pixel" data-stellar-ratio="1.5"></div>
+            <div class="pixel" data-stellar-ratio="1.6"></div>
+            <div class="pixel" data-stellar-ratio="1.7"></div>
+            <div class="pixel" data-stellar-ratio="1.8"></div>
+            <div class="pixel" data-stellar-ratio="2.1"><img src="img/earth.png"></div>
+            <div class="pixel" data-stellar-ratio="1.0"><img src="img/stars.png"></div>
+            <div class="hsContainer">
+                <div class="hsContent">
+                    <h2>Welcome</h2>
+                    <a><h1 id="down-1">DOWN</h1></a>
+                </div>
+            </div>
+        </section> -->
